@@ -1,4 +1,4 @@
-# jui-webuploader [![spm version](http://spmjs.io/badge/jui-webuploader)](http://spmjs.io/package/jui-webuploader)
+# webuploader [![spm version](http://spmjs.io/badge/webuploader)](http://spmjs.io/package/webuploader)
 
 ---
 
@@ -7,12 +7,16 @@ http://fex.baidu.com/webuploader
 ## Install
 
 ```
-$ spm install jui-webuploader --save
+$ spm install webuploader --save
 ```
 
 ## Usage
 
 ```js
-var juiWebuploader = require('jui-webuploader');
-// use juiWebuploader
+var WebUploader = require('webuploader');
+var uploader = new WebUploader.Uploader({
+    swf: 'path_of_swf/Uploader.swf'
+
+    // 其他配置项
+});
 ```

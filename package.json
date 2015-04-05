@@ -1,0 +1,31 @@
+{
+  "name": "webuploader",
+  "version": "0.1.5",
+  "description": "http://fex.baidu.com/webuploader",
+  "keywords": [],
+  "homepage": "",
+  "author": "fex-team",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "output": [
+      "Uploader.swf"
+    ],
+    "dependencies": {
+      "jquery": "1.7.2",
+      "import-style": "1.0.0"
+    },
+    "buildArgs": "--ignore jquery"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}

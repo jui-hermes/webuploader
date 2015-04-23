@@ -15,9 +15,6 @@
   "licenses": "MIT",
   "spm": {
     "main": "index.js",
-    "output": [
-      "Uploader.swf"
-    ],
     "dependencies": {
       "jquery": "1.7.2",
       "import-style": "1.0.0"
